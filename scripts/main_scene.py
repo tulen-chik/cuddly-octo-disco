@@ -1,9 +1,10 @@
+import pygame as pg
 from scripts.button import Button
 from scripts.bass_scene import Scene
-import pygame as pg
+from interface.Imain import IMainGame
 
 
-class MainGame(Scene):
+class MainGame(Scene, IMainGame):
     def __init__(self, display, scenes):
         super().__init__(display)
         self.scenes = scenes

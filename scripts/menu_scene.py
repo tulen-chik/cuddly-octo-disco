@@ -1,9 +1,10 @@
+import pygame as pg
 from scripts.button import Button
 from scripts.bass_scene import Scene
-import pygame as pg
+from interface.Imenu import IMainMenu
 
 
-class MainMenu(Scene):
+class MainMenu(Scene, IMainMenu):
     def __init__(self, display):
         super().__init__(display)
         self.menu_but = Button("играть", self.display, lambda: self.change_state("start-game"), menu_but=False)
