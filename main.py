@@ -5,8 +5,8 @@ from scripts.manager_scene import WindowManager
 
 if __name__ == "__main__":
     scene_first = [
-        {"bg": "assets/kbp.jfif", "char": "assets/amogus.png", "text": ["1", "2", "3"]},
-        {"bg": "assets/kbp.jfif", "char": "assets/amogus_green.png", "text": ["4", "5", "6"]},
+        {"bg": "assets/kbp.jfif", "char": "assets/amogus.png", "text": ["йоу", "мы наконец-то поступили в лучший колледж вселенной ", "ты этому рад?"]},
+        {"bg": "assets/kbp.jfif", "char": "assets/amogus_green.png", "text": ["ну не знаю", "лучше пошли покурим" ]},
     ]
 
     pg.init()
